@@ -145,7 +145,6 @@ def download_default_audio(url: str) -> str:
 def generate_audio():
     try:
         
-        print(f"Generating audio for text: {st.session_state.corrected_text}")
         print(f"Generating audio for ref_audio_path: {st.session_state.ref_audio_path}")
         print(f"Generating audio for exaggeration: {st.session_state.exaggeration}")
         print(f"Generating audio for temperature: {st.session_state.temperature}")
