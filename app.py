@@ -1,3 +1,5 @@
+# py -3.10 -m venv Myenv
+
 # pip install -r requirements.txt
 
 # Streamlit Grammar Refiner + TTS App using Gemini + Chatterbox
